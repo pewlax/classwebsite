@@ -1,4 +1,4 @@
-import Hero from './components/Hero';
+import Hero from './components/Hero.tsx';
 import VideoSection from './components/VideoSection';
 import Founders from './components/Founders';
 import Benefits from './components/Benefits';
