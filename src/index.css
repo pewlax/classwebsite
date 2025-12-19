@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-tight {
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-gold-light {
+    color: #F6D77A;
+  }
+
+  .text-gold-classic {
+    color: #E6B84C;
+  }
+
+  .text-gold-luxury {
+    color: #CFA23A;
+  }
+
+  .text-gold-antique {
+    color: #A67C1F;
+  }
+
+  .text-gold-bronze {
+    color: #7A5A14;
+  }
+
+  .text-gold-dark {
+    color: #4E3A0C;
+  }
+
+  .bg-gold-light {
+    background-color: #F6D77A;
+  }
+
+  .bg-gold-classic {
+    background-color: #E6B84C;
+  }
+
+  .bg-gold-luxury {
+    background-color: #CFA23A;
+  }
+
+  .bg-gold-antique {
+    background-color: #A67C1F;
+  }
+
+  .bg-gold-bronze {
+    background-color: #7A5A14;
+  }
+
+  .bg-gold-dark {
+    background-color: #4E3A0C;
+  }
+
+  .border-gold-light {
+    border-color: #F6D77A;
+  }
+
+  .border-gold-classic {
+    border-color: #E6B84C;
+  }
+
+  .border-gold-luxury {
+    border-color: #CFA23A;
+  }
+
+  .border-gold-antique {
+    border-color: #A67C1F;
+  }
+
+  .border-gold-bronze {
+    border-color: #7A5A14;
+  }
+
+  .border-gold-dark {
+    border-color: #4E3A0C;
+  }
+
+  .ring-gold-light {
+    --tw-ring-color: #F6D77A;
+  }
+
+  .ring-gold-classic {
+    --tw-ring-color: #E6B84C;
+  }
+}
